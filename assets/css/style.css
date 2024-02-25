@@ -175,7 +175,7 @@ hr {
     flex-wrap: wrap;
 }
 
-#times > div {
+#times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
@@ -205,7 +205,7 @@ hr {
 
 /* Signup Page */
 #signup {
-    background: url(../images/signup-image.webp);
+    background-image: url(../images/signup-image.webp);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -235,7 +235,7 @@ hr {
     padding: 0 5px;
 }
 
-#radio-buttons {
+.radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
